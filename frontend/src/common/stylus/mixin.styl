@@ -1,0 +1,22 @@
+.left {
+  &:after {
+    float: right;
+    content: ' ';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-width: 1px 1px 0 0;
+    border-color: #bfbfbf;
+    border-style: solid;
+    transform: rotate(46deg);
+    margin-right: 25px;
+    position: relative;
+    top: 18.5px;
+  }
+}
+
+bg-image($valueY) {
+  // background-image: url($url);
+  // background-position: $valueX + 'px' ($valueY + 'px');
+  background-position: 4px ($valueY + 'px');
+}
